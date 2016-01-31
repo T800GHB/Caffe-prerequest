@@ -14,11 +14,11 @@ sudo apt-get update
 sudo apt-get install $APT_FLAGS libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler libatlas-base-dev
 sudo apt-get install $APT_FLAGS --no-install-recommends libboost-all-dev
 
-# Caffe python
-sudo apt-get install $APT_FLAGS python-dev python-pip gfortran
+# Caffe python, please use python3
+sudo apt-get install $APT_FLAGS python3-dev python3-pip gfortran
 
 # Caffe pip
-sudo apt-get install $APT_FLAGS cython python-numpy python-scipy python-skimage python-matplotlib python-h5py python-leveldb python-networkx python-pandas python-dateutil python-protobuf python-gflags python-yaml python-pil
+sudo apt-get install $APT_FLAGS cython python3-numpy python3-scipy python3-skimage python3-matplotlib python3-h5py python3-leveldb python3-networkx python3-pandas python3-dateutil python3-protobuf python3-gflags python3-yaml python3-pil
 
 #Remind
 echo Please install CUDA and cudnn by NVIDIA offical package.
