@@ -11,15 +11,17 @@ echo
 sudo apt-get update
 
 # Caffe base
-sudo apt-get install $APT_FLAGS libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler libatlas-base-dev
+sudo apt-get install $APT_FLAGS libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev libgflags-dev 
+sudo apt-get install $APT_FLAGS libgoogle-glog-dev liblmdb-dev protobuf-compiler libatlas-base-dev
 sudo apt-get install $APT_FLAGS --no-install-recommends libboost-all-dev
 
 # Caffe python, please use python3
 sudo apt-get install $APT_FLAGS python3-dev python3-pip gfortran
 
 # Caffe pip
-sudo apt-get install $APT_FLAGS cython python3-numpy python3-scipy python3-skimage python3-matplotlib python3-h5py python3-leveldb python3-networkx python3-pandas python3-dateutil python3-protobuf python3-gflags python3-yaml python3-pil
-
+sudo apt-get install $APT_FLAGS cython3  python3-skimage python3-h5py python3-leveldb python3-networkx python3-pandas
+sudo apt-get install $APT_FLAGS python3-dateutil python-protobuf python-gflags python3-yaml python3-pil
+#sudo apt-get install $APT_FLAGS python3-numpy python3-scipy python3-matplotlib 
 #Remind
 echo Please install CUDA and cudnn by NVIDIA offical package.
 echo Please do not forget to add path to config file.
