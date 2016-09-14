@@ -21,7 +21,7 @@ sudo apt-get install $APT_FLAGS python-dev python-pip gfortran
 # Caffe pip
 sudo apt-get install $APT_FLAGS cython  python-skimage python-h5py python-leveldb python-networkx python-pandas
 sudo apt-get install $APT_FLAGS python-dateutil python-protobuf python-gflags python-yaml python-pil
-#sudo apt-get install $APT_FLAGS python3-numpy python3-scipy python3-matplotlib 
+sudo apt-get install $APT_FLAGS python-numpy python-scipy python-matplotlib 
 #Remind
 echo Please install CUDA and cudnn by NVIDIA offical package.
 echo Please do not forget to add path to config file.
