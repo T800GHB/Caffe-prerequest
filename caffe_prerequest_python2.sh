@@ -9,16 +9,16 @@ echo Installing apt-get packages ...
 echo
 
 sudo apt-get update
-echo #########################################
+echo -----------------------------------------------
 echo Caffe base
-echo #########################################
+echo -----------------------------------------------
 sudo apt-get install $APT_FLAGS libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev libgflags-dev 
 sudo apt-get install $APT_FLAGS libgoogle-glog-dev liblmdb-dev protobuf-compiler libatlas-base-dev
 sudo apt-get install $APT_FLAGS --no-install-recommends libboost-all-dev
 
-echo #########################################
+echo -----------------------------------------------
 echo Caffe python, use python2 
-echo #########################################
+echo -----------------------------------------------
 sudo apt-get install $APT_FLAGS python-dev python-pip gfortran
 
 sudo apt-get install $APT_FLAGS cython  python-skimage python-h5py python-leveldb python-networkx python-pandas
